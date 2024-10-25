@@ -28,7 +28,8 @@ def get_payout(row, bet ):
         return 0
 
 
-def slot_machine():
+
+def main():
   balance =100
 
 print ("*************************")
@@ -61,5 +62,5 @@ while balance > 0:
         print("Invalid input. Please enter a numeric value.")
 
 
-if __name__== '__slot_machine__':
-    slot_machine()
+if __name__== '__main__':
+    main()
